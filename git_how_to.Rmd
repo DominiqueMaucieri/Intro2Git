@@ -3,13 +3,13 @@ title: "How to use GitHub"
 author: '[Dominique Maucieri](https://www.dominiquemaucieri.com)'
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
+  pdf_document:
+    toc: yes
+    toc_depth: 3
   html_document:
     toc: yes
     toc_depth: 3
     toc_float: yes
-  pdf_document:
-    toc: yes
-    toc_depth: 3
 ---
 
 # Getting started with Git
@@ -49,7 +49,7 @@ Since GitHub allows you to share code and data online, it means that you will ha
 
 This is very easy to do. 
 
-1. Locate the repository you want to clone, such as **[this one](https://github.com/DominiqueMaucieri/Bates_Lab_Resources)**
+1. Locate the repository you want to clone, such as **[this one](https://github.com/DominiqueMaucieri/Intro2Git)**
 
 2. locate and click the large, green icon on the top right side, that reads "code"
 
